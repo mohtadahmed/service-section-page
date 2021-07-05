@@ -1,0 +1,117 @@
+/* General CSS */
+::selection{
+  background-color: black;
+  color: white;
+}
+
+.container {
+  background-color: #57606f;
+}
+/* Header Section CSS*/
+header h1 {
+  font-family: "Bowlby One SC", cursive;
+  text-shadow: 2px 2px gray;
+}
+
+/* Main Body CSS */
+main a {
+  text-decoration: none;
+  font-size: 32px;
+  background-color: white;
+  color: black;
+  margin: 20px auto;
+  padding: 10px;
+  border: 2px solid black;
+  cursor: default;
+}
+main a:hover {
+  color: black;
+  transition-duration: 0.6s;
+}
+.heading {
+  display: inline-block;
+  border: 2px solid white;
+  background-color: #57606f;
+  color: chartreuse;
+  padding: 15px;
+}
+
+.text {
+  text-align: justify;
+}
+
+/* Footer Section CSS */
+.quote {
+  font-family: "Bad Script", cursive;
+  font-size: 30px;
+  margin-top: 50px;
+  color: #ff3838;
+}
+
+.writers-name {
+  font-family: "Niconne", cursive;
+  font-size: 22px;
+  color: black;
+}
+
+.line {
+  width: 50%;
+  height: 8px;
+  background: linear-gradient(120deg, #575fcf, #f53b57);
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+.footer {
+  background-color: black;
+  margin-top: 20px;
+}
+
+.social-section {
+  display: inline-block;
+  padding: 20px;
+  color: goldenrod;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin-right: 4%;
+  color: rgba(233, 210, 151, 0.623);
+}
+
+.social-links i:hover.fa-facebook{
+  color: #3b5999;
+  transition: 0.8s;
+  transform: translate(0, -12px);
+}
+
+.social-links i:hover.fa-facebook-messenger{
+  color: #0084ff;
+  transition: 0.8s;
+  transform: translate(0, -8px);
+}
+
+.social-links i:hover.fa-instagram{
+  color: #eb3b5a;
+  transition: 0.8s;
+  transform: translate(0, -8px);
+}
+
+.social-links i:hover.fa-linkedin-in{
+  color: #2e86de;
+  transition: 0.8s;
+  transform: translate(0, -8px);
+}
+
+.social-links i:hover.fa-twitter{
+  color: #0fbcf9;
+  transition: 0.8s;
+  transform: translate(0, -8px);
+}
+
+/* Copyright Section CSS */
+/* .copyright{
+  color: black;
+} */
+
+
